@@ -7,3 +7,6 @@ Here are some more changes
 <!-- <p style="color:red;">Red Text</p> -->
 
 and lets's check 'git status' now
+
+changes changes changes...
+
