@@ -1,12 +1,21 @@
-# hello-world
+# Ways to Destress
 
-My website from scratch for Code Fellows
+## Hobbies
 
-Here are some more changes
+### Boardgames
 
-<!-- <p style="color:red;">Red Text</p> -->
+* Reasons to play
+* Types of mechanics
+* My top 10 Games
 
-and lets's check 'git status' now
+### Woodworking
 
-changes changes changes...
+* Projects I have done
+* Why I like it
+* Future projects
 
+### Running
+
+* Why I like it
+* Benefits
+* Races completed
