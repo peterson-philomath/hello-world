@@ -24,7 +24,7 @@ html {
 .topnav a {
     float:left;
     padding: 10px;
-    color:#2c52ed;
+    color:#1B5070;
     text-align:center;
     text-decoration: none;
     font-size: 18px;
@@ -120,6 +120,9 @@ html {
   footer{
     padding:0px;
     background-color: #157062;
+    width: 100%;
+    overflow:hidden;
+    
   }
   footer p{
     text-align:center;
