@@ -5,34 +5,54 @@ html {
   header{
     padding:0;
     margin-top:0;
-    background: #827d7f
+    background: #157062
   }
   header h1{
     margin-top:0px;
     display:block;
     text-align: center;
-    color:#36FFF2;
+    color:#6DBD40;
     font-size: 50px;
   }
-  nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-  nav ul li{
-    display: inline-block;
-    margin-top: 5px;
-    margin: 15px;
-    font-size: 30px;
-    
-  }
+
+.topnav{
+    overflow:auto;
+    background-color: #2DBDA5;
+    width: 100%;
+}
+
+.topnav a {
+    float:left;
+    padding: 10px;
+    color:#2c52ed;
+    text-align:center;
+    text-decoration: none;
+    font-size: 18px;
+    width: 22%;
+    text-align:center;
+}
+
+.topnav a.active{
+    background-color: #45702C;
+}
+
+.topnav a:hover {
+    background-color: grey;
+    font-size: 26px;
+
+}
+
+.topnav a:visited {
+    color:#f90b0b
+}
+
+
   
   body{
     margin: 0;
     padding: 0;
     color: #000000;
-    background-color:beige;
+    background-color:#BD3638;
     font:georgia, sans-serif;
     line-height:1.9;
   }
@@ -47,24 +67,12 @@ html {
     
   }
   
-  a:link{
-  color:#2c52ed;
-  }
-  
-  a:hover{
-    color:#45d9cf;
-    font-size: 25px;
-  }
-  
-  a:visited{
-    color:#f90b0b;
-  }
   
   p{
     margin-top:0;
     text-align: justify;
     font: georgia, sans-serif;
-    color:#6e6e6e
+    color: rgb(0,0,0);
   }
   main {
     width:90%;
@@ -103,6 +111,7 @@ html {
   img {
     width:75%;
     height:75%;
+    align-items:center;
   }
   ol li{
     font-size: 25px;
@@ -110,7 +119,7 @@ html {
   
   footer{
     padding:0px;
-    background-color: #494647;
+    background-color: #157062;
   }
   footer p{
     text-align:center;
