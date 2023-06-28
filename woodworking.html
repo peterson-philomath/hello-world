@@ -4,9 +4,11 @@
 
         <title>Woodworking | Ways to Destress</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
+          <script>const theirName = getName();</script>
             <h1>Woodworking</h1>
             <div class="topnav">
                 <a href="index.html">Home</a>
@@ -14,23 +16,11 @@
                 <a href="boardgames.html">Boardgames</a>
                 <a href="running.html">Running</a>
             </div>
-
+            <script>greetUser();</script>
         </header>
+        
         <main>
-            
-            <script >
-                const userName = prompt("What is your name?");
-                console.log(userName);
-                if (userName == "Kassie"){
-                    document.write("Hi Teach, welcome to my Page!");
-                } else{
-                document.write("Hi " + userName + ", welcome to my Page!");
-                }
-                alert("Please vote for your favorite project.");
-            </script>
-
-            <h2>My Projects</h2>
-
+          <h2>My Projects</h2>
             <h3>Board Game Table</h3>
             <ul>
                 <li><img src="Boardgametop.jpg"></li>
@@ -45,31 +35,7 @@
             <img src="PatioCover.jpg">
             <h3>Window Seat</h3>
             <img src="WindowSeat.jpg">
-           
-           <script>
-                function projectVote() {
-                  const vote = prompt("What is your favorite project? Use the project name with capitals.");
-                  console.log(vote);
-                  if(vote == "Board Game Table"){
-                    document.write("Thanks, I am very proud of that one.");
-                  }else if(vote == "table"){
-                    document.write("Thanks, I am very proud of that one.");
-                  }
-                  else if(vote == "Charging Station"){
-                    document.write("Organization is very important");
-                  } else if(vote == "Medicine Cabinet"){
-                    document.write("Gotta look good in the mirror");
-                  }else if(vote == "Patio Cover and Garden Box"){
-                    document.write("It makes the outside that much more enjoyable.");
-                  }else if(vote == "Window Seat"){
-                    document.write("That improved my living room so much");
-                  }
-                  else{
-                  document.write("Thanks for your vote");
-                }
-                }
-              </script>
-              
+            
             <button onclick="projectVote()">Vote For Your Favorite</button>
 
         </main>
