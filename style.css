@@ -43,7 +43,7 @@ html {
 }
 
 .topnav a:visited {
-    color:#f90b0b
+    color:#f90b0b;
 }
 
 
@@ -115,14 +115,29 @@ html {
   }
   ol li{
     font-size: 25px;
+
   }
   
+  ul li{
+    display:inline-block;
+    width:33%;
+  }
+
+  button{
+    background-color: #45702C;
+    font-size:50px;
+    color:white;
+    align-items: center;
+    text-align: center;
+    object-position: center;
+  }
+
   footer{
     padding:0px;
     background-color: #157062;
     width: 100%;
     overflow:hidden;
-    
+
   }
   footer p{
     text-align:center;
