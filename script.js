@@ -1,6 +1,6 @@
 'use strict';
 
-let theirName = getName();
+
 
 function getName(){
     const userName = prompt("What is your name?");
@@ -33,6 +33,9 @@ const backyard = ['Patio Cover', 'backyard', 'Backyard', 'Patio cover', 'patio c
 function projectVote() {
       const vote = prompt("What is your favorite project? Use the project name with capitals.");
       console.log(vote);  //log vote in console
+      if(vote==""){
+        vote = prompt("Your vote is important");
+      }
       if (table.includes(vote)) {
         document.write("Thanks, I am very proud of that one.");
       } else if(cabinet.includes(vote)) {
@@ -43,11 +46,7 @@ function projectVote() {
         document.write("That improved my living room so much");
       }else if(backyard.includes(vote)){
         document.write("It makes the outside that much more enjoyable.");
-      }
-      else if(vote ==""){
-        prompt("Your vote is important");
-      }
-        else{
+      } else{
     document.write("Thanks for your vote");
     }
 }
