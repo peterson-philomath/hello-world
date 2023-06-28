@@ -34,7 +34,8 @@ function projectVote() {
       const vote = prompt("What is your favorite project? Use the project name with capitals.");
       console.log(vote);  //log vote in console
       if(vote==""){
-        vote = prompt("Your vote is important");
+        alert("Your vote is important");
+        projectVote();
       }
       if (table.includes(vote)) {
         document.write("Thanks, I am very proud of that one.");
