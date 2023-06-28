@@ -25,7 +25,7 @@ function greetUser(){
 
 const table = ['Table', "table", 'Board Game Table', "board game table", "boardgame table", "BoardGame Table", "Boardgame table"];
 const cabinet = ['Medicine Cabinet', 'Cabinet', 'cabinet', 'medicine cabinet'];
-const cStation = ['Chargiing Staiton','charging station', 'charger'];
+const cStation = ['Charging Station','charging station', 'charger'];
 const seat = ['Window seat', 'window seat', 'Window seat', 'seat', 'window'];
 const backyard = ['Patio Cover', 'backyard', 'Backyard', 'Patio cover', 'patio cover', 'garden box', 'Patio Cover and Garden Box', 'Garden Box', 'Patio cover and garden box'];
 
