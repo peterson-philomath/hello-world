@@ -13,6 +13,7 @@
 * Projects I have done
 * Why I like it
 * Future projects
+* Vote for favorite
 
 ### Running
 
