@@ -31,7 +31,7 @@ function projectRequest(){
         projectRequested = prompt("Try Again. How many celebrations would you like to see? Between 1-7");
     }
     for (let i = 0; i < projectRequested; i++){
-        document.write("<img src='celebration-will-smith.gif' />");
+        document.write("Number " + i + "<img src='celebration-will-smith.gif' />");
     }
     
 }
