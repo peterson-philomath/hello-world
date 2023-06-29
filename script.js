@@ -2,7 +2,7 @@
 
 let theirName = getName();
 const projects = 7;
-let projectRequested = 0;
+let celebrateRequested = 0;
 let pictures = ["boardgamesection.jpg", "Boardgametop.jpg", "Boardgametable.jpg", "ChargeStation.jpg", "MedicineCabinet.jpg", "PatioCover.jpg", "WindowSeat.jpg"];
 
 function getName(){
@@ -24,13 +24,13 @@ function greetUser(){
     }
 }
 
-function projectRequest(){
-    projectRequested = prompt("How many celebrations would you like to see? Between 1-7");
-    console.log(projectRequested);
-    while( projectRequested > projects || projectRequested <= 0){
-        projectRequested = prompt("Try Again. How many celebrations would you like to see? Between 1-7");
+function celebrationRequest(){
+  celebrateRequested = prompt("How many celebrations would you like to see? Between 1-7");
+    console.log(celebrateRequested);
+    while( celebrateRequested > projects || celebrateRequested <= 0){
+      celebrateRequested = prompt("Try Again. How many celebrations would you like to see? Between 1-7");
     }
-    for (let i = 0; i < projectRequested; i++){
+    for (let i = 0; i < celebrateRequested; i++){
         document.write("Number " + i + "<img src='celebration-will-smith.gif' />");
     }
     
@@ -59,22 +59,22 @@ function projectVote() {
       }
       if (table.includes(vote.toLowerCase)) {
         document.write("Thanks, I am very proud of that one.");
-        projectRequest();
+        celebrationRequest();
       } else if(cabinet.includes(vote.toLowerCase)) {
         document.write("Gotta look good in the mirror");
-        projectRequest();
+        celebrationRequest();
       } else if (cStation.includes(vote.toLowerCase)){
         document.write("Organization is very important");
-        projectRequest();
+        celebrationRequest();
       } else if(seat.includes(vote.toLowerCase)){
         document.write("That improved my living room so much");
-        projectRequest();
+        celebrationRequest();
       }else if(backyard.includes(vote.toLowerCase)){
         document.write("It makes the outside that much more enjoyable.");
-        projectRequest();
+        celebrationRequest();
       } else{
         document.write("Thanks for your vote");
-        projectRequest();
+        celebrationRequest();
     }
 }
 
